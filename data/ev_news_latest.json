@@ -1,0 +1,40 @@
+{
+  "generated_at": "2025-10-25T02:11:23.194796",
+  "news_by_region": {
+    "USA": [
+      {
+        "title": "Tesla Reports Record Q4 2024 Deliveries",
+        "url": "https://example.com/tesla-q4-2024",
+        "source": "CleanTechnica",
+        "date": "2025-10-24T02:11:23.194768",
+        "description": "Tesla delivered 495,000 vehicles in Q4 2024.",
+        "region": "USA",
+        "manufacturer": "Tesla",
+        "category": "sales"
+      }
+    ],
+    "Europe": [],
+    "Asia_ex_Japan": [
+      {
+        "title": "BYD Surpasses 3 Million EV Sales in 2024",
+        "url": "https://example.com/byd-3m-sales",
+        "source": "CnEVPost",
+        "date": "2025-10-23T02:11:23.194768",
+        "description": "BYD becomes first automaker to sell 3 million EVs.",
+        "region": "Asia_ex_Japan",
+        "manufacturer": "BYD",
+        "category": "sales"
+      }
+    ],
+    "Japan": [],
+    "Global": []
+  },
+  "regional_summaries": {
+    "USA": "1 articles",
+    "Europe": "0 articles",
+    "Asia_ex_Japan": "1 articles",
+    "Japan": "0 articles",
+    "Global": "0 articles"
+  },
+  "total_articles": 2
+}
