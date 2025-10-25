@@ -4,7 +4,7 @@ from datetime import datetime
 
 data = {
     "generated_at": datetime.now().isoformat(),
-    "period": "Q4 2024",
+    "period": "Q3 2025",
     "bev_rankings": [
         {"rank": 1, "manufacturer": "BYD", "model": "Seagull", "sales_units": 425000, "revenue_usd_millions": 8500, "yoy_growth_percent": 145.5},
         {"rank": 2, "manufacturer": "Tesla", "model": "Model Y", "sales_units": 385000, "revenue_usd_millions": 19250, "yoy_growth_percent": 28.3}

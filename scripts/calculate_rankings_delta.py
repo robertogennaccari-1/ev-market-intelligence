@@ -4,7 +4,7 @@ from datetime import datetime
 
 delta = {
     "generated_at": datetime.now().isoformat(),
-    "current_period": "Q4 2024",
+    "current_period": "Q3 2025",
     "previous_period": None,
     "has_comparison": False,
     "alerts": [],
