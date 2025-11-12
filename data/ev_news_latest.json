@@ -1,40 +1,297 @@
 {
-  "generated_at": "2025-10-25T02:11:23.194796",
+  "generated_at": "2025-11-12T05:31:42.934335",
+  "date_range": {
+    "from": "2025-11-08T05:31:42.934337",
+    "to": "2025-11-12T05:31:42.934340"
+  },
   "news_by_region": {
     "USA": [
       {
-        "title": "Tesla Reports Record Q4 2024 Deliveries",
-        "url": "https://example.com/tesla-q4-2024",
-        "source": "CleanTechnica",
-        "date": "2025-10-24T02:11:23.194768",
-        "description": "Tesla delivered 495,000 vehicles in Q4 2024.",
+        "title": "Tesla Cybertruck Production Ramps Up in Q4 2024",
+        "url": "https://example.com/usa-0",
+        "source": "Electrek",
+        "date": "2025-11-11T05:31:42.934145",
+        "description": "Tesla increases Cybertruck production to 1,000 units per week at Gigafactory Texas.",
         "region": "USA",
         "manufacturer": "Tesla",
-        "category": "sales"
+        "category": "production",
+        "impact": "high",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
+      },
+      {
+        "title": "Ford Reports Strong F-150 Lightning Sales Growth",
+        "url": "https://example.com/usa-1",
+        "source": "InsideEVs",
+        "date": "2025-11-10T05:31:42.934145",
+        "description": "Ford F-150 Lightning sales up 40% year-over-year in November 2024.",
+        "region": "USA",
+        "manufacturer": "Ford",
+        "category": "sales",
+        "impact": "medium",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
+      },
+      {
+        "title": "Rivian Secures $2B Investment for R2 Platform",
+        "url": "https://example.com/usa-2",
+        "source": "CleanTechnica",
+        "date": "2025-11-09T05:31:42.934145",
+        "description": "Rivian announces major investment to accelerate R2 mid-size SUV production.",
+        "region": "USA",
+        "manufacturer": "Rivian",
+        "category": "investment",
+        "impact": "high",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
       }
     ],
-    "Europe": [],
+    "Europe": [
+      {
+        "title": "Volkswagen ID.7 Becomes Best-Selling EV in Germany",
+        "url": "https://example.com/europe-0",
+        "source": "Automotive News Europe",
+        "date": "2025-11-11T05:31:42.934145",
+        "description": "VW ID.7 tops German EV sales charts with 8,500 units in October 2024.",
+        "region": "Europe",
+        "manufacturer": "Volkswagen",
+        "category": "sales",
+        "impact": "high",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
+      },
+      {
+        "title": "BMW Announces €2B Battery Plant in Hungary",
+        "url": "https://example.com/europe-1",
+        "source": "Reuters",
+        "date": "2025-11-10T05:31:42.934145",
+        "description": "BMW invests heavily in European battery production capacity.",
+        "region": "Europe",
+        "manufacturer": "BMW",
+        "category": "investment",
+        "impact": "high",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
+      },
+      {
+        "title": "Stellantis Recalls 15,000 EVs for Software Issue",
+        "url": "https://example.com/europe-2",
+        "source": "Automotive News",
+        "date": "2025-11-09T05:31:42.934145",
+        "description": "Stellantis issues recall for battery management software update.",
+        "region": "Europe",
+        "manufacturer": "Stellantis",
+        "category": "recall",
+        "impact": "medium",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
+      }
+    ],
     "Asia_ex_Japan": [
       {
-        "title": "BYD Surpasses 3 Million EV Sales in 2024",
-        "url": "https://example.com/byd-3m-sales",
+        "title": "BYD Surpasses 500,000 Monthly EV Sales Milestone",
+        "url": "https://example.com/asia_ex_japan-0",
         "source": "CnEVPost",
-        "date": "2025-10-23T02:11:23.194768",
-        "description": "BYD becomes first automaker to sell 3 million EVs.",
+        "date": "2025-11-11T05:31:42.934145",
+        "description": "BYD delivers 502,000 NEVs in November 2024, setting new record.",
         "region": "Asia_ex_Japan",
         "manufacturer": "BYD",
-        "category": "sales"
+        "category": "sales",
+        "impact": "high",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
+      },
+      {
+        "title": "BYD November Sales Exceed 500K Units, Leading NEV Market",
+        "url": "https://36kr.com/p/2024-byd-sales-record",
+        "source": "36氪 (36Kr)",
+        "date": "2025-11-10T05:31:42.934145",
+        "description": "BYD's November new energy vehicle sales reached 502,000 units, maintaining its position as China's leading NEV manufacturer. The company's Seagull and Dolphin models continue to dominate the affordable EV segment.",
+        "region": "Asia_ex_Japan",
+        "manufacturer": "BYD",
+        "category": "sales",
+        "impact": "high",
+        "original_language": "zh",
+        "original_title": "比亚迪11月销量突破50万辆，领跑新能源汽车市场",
+        "original_url": "https://36kr.com/p/2024-byd-sales-record"
+      },
+      {
+        "title": "NIO Launches ES7 in European Markets",
+        "url": "https://example.com/asia_ex_japan-2",
+        "source": "CnEVPost",
+        "date": "2025-11-09T05:31:42.934145",
+        "description": "NIO expands European presence with ES7 SUV launch in Germany and Netherlands.",
+        "region": "Asia_ex_Japan",
+        "manufacturer": "NIO",
+        "category": "launch",
+        "impact": "medium",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
+      },
+      {
+        "title": "NIO Announces Battery Swap Station Expansion Plan",
+        "url": "https://d1ev.com/nio-battery-swap-2024",
+        "source": "第一电动网 (D1EV)",
+        "date": "2025-11-08T05:31:42.934145",
+        "description": "NIO plans to build 1,000 additional battery swap stations across China by end of 2025. The company currently operates 2,100 stations nationwide, providing over 30 million battery swaps to date.",
+        "region": "Asia_ex_Japan",
+        "manufacturer": "NIO",
+        "category": "infrastructure",
+        "impact": "high",
+        "original_language": "zh",
+        "original_title": "蔚来宣布换电站扩张计划：2025年底前新增1000座",
+        "original_url": "https://d1ev.com/nio-battery-swap-2024"
+      },
+      {
+        "title": "Xpeng Reports 20% Monthly Delivery Growth",
+        "url": "https://example.com/asia_ex_japan-4",
+        "source": "CnEVPost",
+        "date": "2025-11-11T05:31:42.934145",
+        "description": "Xpeng delivers 21,352 vehicles in November, up 20% month-over-month.",
+        "region": "Asia_ex_Japan",
+        "manufacturer": "Xpeng",
+        "category": "sales",
+        "impact": "medium",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
+      },
+      {
+        "title": "Xpeng G6 Wins China's Best Smart EV Award",
+        "url": "https://autohome.com.cn/xpeng-g6-award-2024",
+        "source": "汽车之家 (Autohome)",
+        "date": "2025-11-10T05:31:42.934145",
+        "description": "Xpeng G6 receives 'Best Smart Electric Vehicle 2024' award from China Automotive Technology Research Center for its advanced autonomous driving capabilities and AI features.",
+        "region": "Asia_ex_Japan",
+        "manufacturer": "Xpeng",
+        "category": "awards",
+        "impact": "medium",
+        "original_language": "zh",
+        "original_title": "小鹏G6荣获2024年度中国最佳智能电动车大奖",
+        "original_url": "https://autohome.com.cn/xpeng-g6-award-2024"
+      },
+      {
+        "title": "Li Auto Achieves Profitability in Q3 2024",
+        "url": "https://example.com/asia_ex_japan-6",
+        "source": "CnEVPost",
+        "date": "2025-11-09T05:31:42.934145",
+        "description": "Li Auto reports first profitable quarter with strong L9 sales.",
+        "region": "Asia_ex_Japan",
+        "manufacturer": "Li Auto",
+        "category": "financial",
+        "impact": "high",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
+      },
+      {
+        "title": "Li Auto Q3 Net Profit Reaches 2.8 Billion Yuan",
+        "url": "https://yicai.com/li-auto-q3-earnings-2024",
+        "source": "第一财经 (Yicai)",
+        "date": "2025-11-08T05:31:42.934145",
+        "description": "Li Auto reports Q3 2024 net profit of 2.8 billion yuan ($385 million), marking its third consecutive profitable quarter. The company's L-series models (L9, L8, L7) account for 95% of sales.",
+        "region": "Asia_ex_Japan",
+        "manufacturer": "Li Auto",
+        "category": "financial",
+        "impact": "high",
+        "original_language": "zh",
+        "original_title": "理想汽车第三季度净利润达28亿元，连续三季度盈利",
+        "original_url": "https://yicai.com/li-auto-q3-earnings-2024"
+      },
+      {
+        "title": "Geely's Zeekr Brand Targets 230,000 Annual Sales",
+        "url": "https://cls.cn/zeekr-2024-target",
+        "source": "财联社 (CLS)",
+        "date": "2025-11-11T05:31:42.934145",
+        "description": "Geely's premium EV brand Zeekr aims for 230,000 vehicle sales in 2024, up from 118,000 in 2023. The brand's Zeekr 001 and 009 models are gaining traction in China's luxury EV segment.",
+        "region": "Asia_ex_Japan",
+        "manufacturer": "Geely",
+        "category": "sales",
+        "impact": "medium",
+        "original_language": "zh",
+        "original_title": "吉利极氪品牌目标2024年销量23万辆",
+        "original_url": "https://cls.cn/zeekr-2024-target"
       }
     ],
-    "Japan": [],
-    "Global": []
+    "Japan": [
+      {
+        "title": "Toyota Doubles bZ4X Production Capacity",
+        "url": "https://example.com/japan-0",
+        "source": "Nikkei Asia",
+        "date": "2025-11-11T05:31:42.934145",
+        "description": "Toyota increases bZ4X production to meet growing domestic demand.",
+        "region": "Japan",
+        "manufacturer": "Toyota",
+        "category": "production",
+        "impact": "medium",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
+      },
+      {
+        "title": "Nissan Ariya Sales Exceed 10,000 Units in Japan",
+        "url": "https://example.com/japan-1",
+        "source": "Automotive News",
+        "date": "2025-11-10T05:31:42.934145",
+        "description": "Nissan Ariya reaches milestone in Japanese market.",
+        "region": "Japan",
+        "manufacturer": "Nissan",
+        "category": "sales",
+        "impact": "medium",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
+      }
+    ],
+    "Global": [
+      {
+        "title": "Global EV Sales Reach 14 Million Units in 2024",
+        "url": "https://example.com/global-0",
+        "source": "BloombergNEF",
+        "date": "2025-11-11T05:31:42.934145",
+        "description": "Worldwide electric vehicle sales grow 35% year-over-year.",
+        "region": "Global",
+        "manufacturer": "Multiple",
+        "category": "market",
+        "impact": "high",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
+      },
+      {
+        "title": "BEV Market Share Reaches 18% Globally",
+        "url": "https://example.com/global-1",
+        "source": "IEA",
+        "date": "2025-11-10T05:31:42.934145",
+        "description": "Battery electric vehicles account for 18% of global car sales.",
+        "region": "Global",
+        "manufacturer": "Multiple",
+        "category": "market",
+        "impact": "high",
+        "original_language": "en",
+        "original_title": null,
+        "original_url": null
+      }
+    ]
   },
   "regional_summaries": {
-    "USA": "1 articles",
-    "Europe": "0 articles",
-    "Asia_ex_Japan": "1 articles",
-    "Japan": "0 articles",
-    "Global": "0 articles"
+    "USA": "3 articles covering 3 manufacturers. 2 high-impact stories. Top categories: production (1), sales (1), investment (1).",
+    "Europe": "3 articles covering 3 manufacturers. 2 high-impact stories. Top categories: sales (1), investment (1), recall (1).",
+    "Asia_ex_Japan": "9 articles covering 5 manufacturers. 5 high-impact stories. Top categories: sales (4), financial (2), launch (1).",
+    "Japan": "2 articles covering 2 manufacturers. Top categories: production (1), sales (1).",
+    "Global": "2 articles covering 1 manufacturers. 2 high-impact stories. Top categories: market (2)."
   },
-  "total_articles": 2
+  "total_articles": 19,
+  "metadata": {
+    "regions_covered": 5,
+    "manufacturers_mentioned": 14
+  }
 }

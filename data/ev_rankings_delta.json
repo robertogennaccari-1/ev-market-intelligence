@@ -1,8 +1,605 @@
 {
-  "generated_at": "2025-10-25T02:53:16.659692",
-  "current_period": "Q3 2025",
-  "previous_period": null,
-  "has_comparison": false,
-  "alerts": [],
-  "message": "First run"
+  "generated_at": "2025-11-12T05:33:38.911095",
+  "current_period": "Q4 2025",
+  "previous_period": "Q3 2025",
+  "has_comparison": true,
+  "bev_model_deltas": [
+    {
+      "manufacturer": "BYD",
+      "model": "Seagull",
+      "vehicle_type": "BEV",
+      "current_rank": 1,
+      "current_sales": 425000,
+      "previous_rank": 1,
+      "previous_sales": 425000,
+      "rank_change": 0,
+      "sales_change": 0,
+      "sales_change_percent": 0.0,
+      "is_new_entry": false,
+      "is_significant": false
+    },
+    {
+      "manufacturer": "Tesla",
+      "model": "Model Y",
+      "vehicle_type": "BEV",
+      "current_rank": 2,
+      "current_sales": 385000,
+      "previous_rank": 2,
+      "previous_sales": 385000,
+      "rank_change": 0,
+      "sales_change": 0,
+      "sales_change_percent": 0.0,
+      "is_new_entry": false,
+      "is_significant": false
+    },
+    {
+      "manufacturer": "BYD",
+      "model": "Dolphin",
+      "vehicle_type": "BEV",
+      "current_rank": 3,
+      "current_sales": 285000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "Tesla",
+      "model": "Model 3",
+      "vehicle_type": "BEV",
+      "current_rank": 4,
+      "current_sales": 275000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "Volkswagen",
+      "model": "ID.4",
+      "vehicle_type": "BEV",
+      "current_rank": 5,
+      "current_sales": 165000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "BYD",
+      "model": "Atto 3",
+      "vehicle_type": "BEV",
+      "current_rank": 6,
+      "current_sales": 158000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "Volkswagen",
+      "model": "ID.3",
+      "vehicle_type": "BEV",
+      "current_rank": 7,
+      "current_sales": 142000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "NIO",
+      "model": "ES6",
+      "vehicle_type": "BEV",
+      "current_rank": 8,
+      "current_sales": 125000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "BMW",
+      "model": "iX3",
+      "vehicle_type": "BEV",
+      "current_rank": 9,
+      "current_sales": 118000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "Hyundai",
+      "model": "Ioniq 5",
+      "vehicle_type": "BEV",
+      "current_rank": 10,
+      "current_sales": 112000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    }
+  ],
+  "phev_model_deltas": [
+    {
+      "manufacturer": "BYD",
+      "model": "Song Plus DM-i",
+      "vehicle_type": "PHEV",
+      "current_rank": 1,
+      "current_sales": 365000,
+      "previous_rank": 1,
+      "previous_sales": 365000,
+      "rank_change": 0,
+      "sales_change": 0,
+      "sales_change_percent": 0.0,
+      "is_new_entry": false,
+      "is_significant": false
+    },
+    {
+      "manufacturer": "BYD",
+      "model": "Qin Plus DM-i",
+      "vehicle_type": "PHEV",
+      "current_rank": 2,
+      "current_sales": 298000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "Li Auto",
+      "model": "Li L9",
+      "vehicle_type": "PHEV",
+      "current_rank": 3,
+      "current_sales": 185000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "Li Auto",
+      "model": "Li L8",
+      "vehicle_type": "PHEV",
+      "current_rank": 4,
+      "current_sales": 165000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "BMW",
+      "model": "X5 xDrive45e",
+      "vehicle_type": "PHEV",
+      "current_rank": 5,
+      "current_sales": 95000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "Mercedes-Benz",
+      "model": "GLE 350de",
+      "vehicle_type": "PHEV",
+      "current_rank": 6,
+      "current_sales": 82000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "Volkswagen",
+      "model": "Tiguan eHybrid",
+      "vehicle_type": "PHEV",
+      "current_rank": 7,
+      "current_sales": 78000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "Audi",
+      "model": "Q5 TFSI e",
+      "vehicle_type": "PHEV",
+      "current_rank": 8,
+      "current_sales": 72000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "Ford",
+      "model": "Escape PHEV",
+      "vehicle_type": "PHEV",
+      "current_rank": 9,
+      "current_sales": 65000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "XC60 Recharge",
+      "vehicle_type": "PHEV",
+      "current_rank": 10,
+      "current_sales": 58000,
+      "previous_rank": null,
+      "previous_sales": null,
+      "rank_change": null,
+      "sales_change": null,
+      "sales_change_percent": null,
+      "is_new_entry": true,
+      "is_significant": true
+    }
+  ],
+  "manufacturer_deltas": [
+    {
+      "manufacturer": "BYD",
+      "current_total": 1531000,
+      "previous_total": 1373000,
+      "total_change": 158000,
+      "current_bev": 868000,
+      "previous_bev": 710000,
+      "bev_change": 158000,
+      "current_phev": 663000,
+      "previous_phev": 663000,
+      "phev_change": 0,
+      "is_new": false,
+      "is_significant": true,
+      "total_change_percent": 11.5
+    },
+    {
+      "manufacturer": "Tesla",
+      "current_total": 660000,
+      "previous_total": 705000,
+      "total_change": -45000,
+      "current_bev": 660000,
+      "previous_bev": 705000,
+      "bev_change": -45000,
+      "current_phev": 0,
+      "previous_phev": 0,
+      "phev_change": 0,
+      "is_new": false,
+      "is_significant": true,
+      "total_change_percent": -6.4
+    },
+    {
+      "manufacturer": "Volkswagen",
+      "current_total": 385000,
+      "previous_total": 0,
+      "total_change": 385000,
+      "current_bev": 307000,
+      "previous_bev": 0,
+      "bev_change": 307000,
+      "current_phev": 78000,
+      "previous_phev": 0,
+      "phev_change": 78000,
+      "is_new": true,
+      "is_significant": true,
+      "total_change_percent": null
+    },
+    {
+      "manufacturer": "Li Auto",
+      "current_total": 350000,
+      "previous_total": 0,
+      "total_change": 350000,
+      "current_bev": 0,
+      "previous_bev": 0,
+      "bev_change": 0,
+      "current_phev": 350000,
+      "previous_phev": 0,
+      "phev_change": 350000,
+      "is_new": true,
+      "is_significant": true,
+      "total_change_percent": null
+    },
+    {
+      "manufacturer": "BMW",
+      "current_total": 213000,
+      "previous_total": 0,
+      "total_change": 213000,
+      "current_bev": 118000,
+      "previous_bev": 0,
+      "bev_change": 118000,
+      "current_phev": 95000,
+      "previous_phev": 0,
+      "phev_change": 95000,
+      "is_new": true,
+      "is_significant": true,
+      "total_change_percent": null
+    },
+    {
+      "manufacturer": "NIO",
+      "current_total": 125000,
+      "previous_total": 0,
+      "total_change": 125000,
+      "current_bev": 125000,
+      "previous_bev": 0,
+      "bev_change": 125000,
+      "current_phev": 0,
+      "previous_phev": 0,
+      "phev_change": 0,
+      "is_new": true,
+      "is_significant": true,
+      "total_change_percent": null
+    },
+    {
+      "manufacturer": "Hyundai",
+      "current_total": 112000,
+      "previous_total": 0,
+      "total_change": 112000,
+      "current_bev": 112000,
+      "previous_bev": 0,
+      "bev_change": 112000,
+      "current_phev": 0,
+      "previous_phev": 0,
+      "phev_change": 0,
+      "is_new": true,
+      "is_significant": true,
+      "total_change_percent": null
+    },
+    {
+      "manufacturer": "Mercedes-Benz",
+      "current_total": 82000,
+      "previous_total": 0,
+      "total_change": 82000,
+      "current_bev": 0,
+      "previous_bev": 0,
+      "bev_change": 0,
+      "current_phev": 82000,
+      "previous_phev": 0,
+      "phev_change": 82000,
+      "is_new": true,
+      "is_significant": true,
+      "total_change_percent": null
+    },
+    {
+      "manufacturer": "Audi",
+      "current_total": 72000,
+      "previous_total": 0,
+      "total_change": 72000,
+      "current_bev": 0,
+      "previous_bev": 0,
+      "bev_change": 0,
+      "current_phev": 72000,
+      "previous_phev": 0,
+      "phev_change": 72000,
+      "is_new": true,
+      "is_significant": true,
+      "total_change_percent": null
+    },
+    {
+      "manufacturer": "Ford",
+      "current_total": 65000,
+      "previous_total": 0,
+      "total_change": 65000,
+      "current_bev": 0,
+      "previous_bev": 0,
+      "bev_change": 0,
+      "current_phev": 65000,
+      "previous_phev": 0,
+      "phev_change": 65000,
+      "is_new": true,
+      "is_significant": true,
+      "total_change_percent": null
+    },
+    {
+      "manufacturer": "Volvo",
+      "current_total": 58000,
+      "previous_total": 0,
+      "total_change": 58000,
+      "current_bev": 0,
+      "previous_bev": 0,
+      "bev_change": 0,
+      "current_phev": 58000,
+      "previous_phev": 0,
+      "phev_change": 58000,
+      "is_new": true,
+      "is_significant": true,
+      "total_change_percent": null
+    }
+  ],
+  "alerts": [
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: BYD Dolphin (BEV) at rank #3 with 285,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: Tesla Model 3 (BEV) at rank #4 with 275,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: Volkswagen ID.4 (BEV) at rank #5 with 165,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: BYD Atto 3 (BEV) at rank #6 with 158,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: Volkswagen ID.3 (BEV) at rank #7 with 142,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: NIO ES6 (BEV) at rank #8 with 125,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: BMW iX3 (BEV) at rank #9 with 118,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: Hyundai Ioniq 5 (BEV) at rank #10 with 112,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: BYD Qin Plus DM-i (PHEV) at rank #2 with 298,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: Li Auto Li L9 (PHEV) at rank #3 with 185,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: Li Auto Li L8 (PHEV) at rank #4 with 165,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: BMW X5 xDrive45e (PHEV) at rank #5 with 95,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: Mercedes-Benz GLE 350de (PHEV) at rank #6 with 82,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: Volkswagen Tiguan eHybrid (PHEV) at rank #7 with 78,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: Audi Q5 TFSI e (PHEV) at rank #8 with 72,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: Ford Escape PHEV (PHEV) at rank #9 with 65,000 units"
+    },
+    {
+      "type": "new_entry",
+      "severity": "info",
+      "message": "New entry: Volvo XC60 Recharge (PHEV) at rank #10 with 58,000 units"
+    },
+    {
+      "type": "manufacturer_change",
+      "severity": "high",
+      "message": "BYD total sales increased by 158,000 units (+11.5%)"
+    },
+    {
+      "type": "manufacturer_change",
+      "severity": "high",
+      "message": "Tesla total sales decreased by 45,000 units (-6.4%)"
+    },
+    {
+      "type": "new_manufacturer",
+      "severity": "info",
+      "message": "New manufacturer: Volkswagen with 385,000 total units"
+    },
+    {
+      "type": "new_manufacturer",
+      "severity": "info",
+      "message": "New manufacturer: Li Auto with 350,000 total units"
+    },
+    {
+      "type": "new_manufacturer",
+      "severity": "info",
+      "message": "New manufacturer: BMW with 213,000 total units"
+    },
+    {
+      "type": "new_manufacturer",
+      "severity": "info",
+      "message": "New manufacturer: NIO with 125,000 total units"
+    },
+    {
+      "type": "new_manufacturer",
+      "severity": "info",
+      "message": "New manufacturer: Hyundai with 112,000 total units"
+    },
+    {
+      "type": "new_manufacturer",
+      "severity": "info",
+      "message": "New manufacturer: Mercedes-Benz with 82,000 total units"
+    },
+    {
+      "type": "new_manufacturer",
+      "severity": "info",
+      "message": "New manufacturer: Audi with 72,000 total units"
+    },
+    {
+      "type": "new_manufacturer",
+      "severity": "info",
+      "message": "New manufacturer: Ford with 65,000 total units"
+    },
+    {
+      "type": "new_manufacturer",
+      "severity": "info",
+      "message": "New manufacturer: Volvo with 58,000 total units"
+    }
+  ],
+  "summary": {
+    "total_alerts": 28,
+    "high_severity_alerts": 2,
+    "significant_changes": 17,
+    "new_entries": 17
+  }
 }
