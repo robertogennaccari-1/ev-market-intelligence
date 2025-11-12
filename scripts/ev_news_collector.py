@@ -100,9 +100,9 @@ class EVNewsCollector:
         """
         print("Collecting EV news from global sources...")
         
-        # Calculate date range (last 3-4 days)
+        # Calculate date range (last 7 days for weekly updates)
         today = datetime.now()
-        date_range = [today - timedelta(days=i) for i in range(1, 5)]
+        date_range = [today - timedelta(days=i) for i in range(1, 8)]
         
         news_items = []
         
@@ -373,7 +373,7 @@ class EVNewsCollector:
         output = {
             "generated_at": datetime.now().isoformat(),
             "date_range": {
-                "from": (datetime.now() - timedelta(days=4)).isoformat(),
+                "from": (datetime.now() - timedelta(days=7)).isoformat(),
                 "to": datetime.now().isoformat()
             },
             "news_by_region": categorized_news,
