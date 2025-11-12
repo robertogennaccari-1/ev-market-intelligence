@@ -58,17 +58,24 @@ else
     log "⚠ Dashboard directory not found, skipping dashboard update"
 fi
 
-# 5. Commit to GitHub
+# 5. Commit to GitHub (optional, requires credentials)
 log "Step 5/6: Committing to GitHub..."
 git add -A
 if git diff --staged --quiet; then
     log "⚠ No changes to commit"
 else
     git commit -m "Auto-update: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE" 2>&1
-    if git push origin main >> "$LOG_FILE" 2>&1; then
-        log "✓ Changes pushed to GitHub"
+    log "✓ Changes committed locally"
+    # Push only if credentials are configured
+    if git config --get remote.origin.url | grep -q "@"; then
+        if git push origin main >> "$LOG_FILE" 2>&1; then
+            log "✓ Changes pushed to GitHub"
+        else
+            log "⚠ Push to GitHub failed (will retry next run)"
+        fi
     else
-        log "⚠ Push to GitHub failed (will retry next run)"
+        log "⚠ GitHub push skipped (credentials not configured)"
+        log "  To enable: git remote set-url origin https://TOKEN@github.com/robertogennaccari-1/ev-market-intelligence.git"
     fi
 fi
 
